@@ -4,6 +4,6 @@ services:
   quadsbot:
     build:
       context: ./quadsbot
-      dockerfile: ./quadsbot/Dockerfile.armv6
+      dockerfile: Dockerfile.armv6
     restart: always
     env_file: quadsbot.env
