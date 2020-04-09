@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  quadsbot:
+    build:
+      context: ./quadsbot
+      dockerfile: ./quadsbot/Dockerfile.armv6
+    restart: always
+    env_file: quadsbot.env
